@@ -41,7 +41,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 }
 
 #header h1{
-	padding-top: 60px;
+	padding-top: 100;
 }
 
 #mainnav a{
@@ -62,6 +62,10 @@ a:active, a:focus,input:active, input:focus{outline:0;}
   width: 1280px;
   height: 528px;
   margin-left: -640px;
+}
+
+#logo{
+	margin: top 50px;
 }
 
 
@@ -147,7 +151,7 @@ section h2 span {
 }
 
 
-/* SEC04 BRAND
+/* SEC04 ABOUT ME
 ------------------------------------------------------------*/
 .col3 img{
 	display: block;
@@ -178,7 +182,7 @@ section h2 span {
 }
 
 
-/* SEC05 COMPANY
+/* SEC05 CONTACT
 ------------------------------------------------------------*/
 #sec05 p{
 	margin-bottom: 5px;
