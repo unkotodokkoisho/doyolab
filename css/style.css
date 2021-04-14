@@ -65,7 +65,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 }
 
 #logo{
-	margin: top 50px;
+	margin-top: 50px;
 	margin-bottom: 30px;
 }
 
@@ -152,7 +152,8 @@ section h2 span {
 }
 
 
-/* SEC04 ABOUT ME
+
+/* SEC04 ABOUT 
 ------------------------------------------------------------*/
 .col3 img{
 	display: block;
@@ -182,6 +183,9 @@ section h2 span {
 	width: auto;
 }
 
+#profile01 {
+	
+}
 
 /* SEC05 CONTACT
 ------------------------------------------------------------*/
