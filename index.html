@@ -11,11 +11,12 @@
 </head>
 <!--classはcssでは「.＋class名」、idはcssでは「#+id名前」/
 	classとidの名前は基本英数字(最初に数字はNG）
-　　idはページ内に1つ/classは何回でもOK-->
+　　idはページ内に1つ/classは何回でもOK
+　　優先順位　id>class-->
 <body id="top">
 <header id="header">
 	<div id="headerWrap">
-		<h1><img id="logo" src="images/originallogo2.png" width="500px"  alt="トップのロゴマーク"></h1>
+		<img id="logo" src="images/originallogo2.png" width="500px"  alt="トップのロゴマーク">
 		<nav id="mainnav">
 			<p id="menuWrap"><a id="menu"><span id="menuBtn"></span></a></p>
 			<div class="panel">
@@ -40,7 +41,7 @@
 <section>
 	<header>
 		<h2><span>Concept</span></h2>
-		<h2><center>「モノの物流」から「データの物流」に変わる新しい時代へ</center></h2>
+		<p id="concept">「モノの物流」から「データの物流」に変わる新しい時代へ<p></p>
 	</header>
 	<div class="innerS">
 		
@@ -53,7 +54,7 @@
 	<header>
 		<h2><span>Gallery</span></h2>
 	</header>
-	<ul id="gallery">
+	　<ul id="gallery">
 		<li><img src="images/photo10.jpg" width="426" height="418" alt=""></li>
 		<li><img src="images/photo11.jpg" width="426" height="418" alt=""></li>
 		<li><img src="images/photo12.jpg" width="426" height="418" alt=""></li>
@@ -62,7 +63,7 @@
 		<!--<li><img src="ima<li><img src="images/photo06.jpg" width="426" height="418" alt=""></li>ges/photo07.jpg" width="426" height="418" alt=""></li>-->
 		<!--<li><img src="images/photo08.jpg" width="426" height="418" alt=""></li>-->
 		<!--<li><img src="images/photo09.jpg" width="426" height="418" alt=""></li>-->
-	</ul>
+	　</ul>
 </section>
 <!-- // GALLERY -->
 
