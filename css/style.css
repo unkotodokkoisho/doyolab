@@ -121,6 +121,9 @@ section h2 span {
 	padding-bottom: 80px;
 }
 
+#concept{
+	text-align: center;
+}
 
 /* SEC02 Gallery
 ------------------------------------------------------------*/
@@ -183,9 +186,6 @@ section h2 span {
 	width: auto;
 }
 
-#profile01 {
-	
-}
 
 /* SEC05 CONTACT
 ------------------------------------------------------------*/
