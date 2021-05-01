@@ -139,7 +139,7 @@ font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru 
     bottom: 16px;
     right: 16px;
 	animation-duration: 500;
-	
+	transition: .2s;
     }
  
 .pagetop a
