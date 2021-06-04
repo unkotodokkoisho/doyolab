@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header id="header">
+        <div id="headerWrap">
+            <a href="index.html"><img id="logo" src="images/originallogo2.png"  width="500px" alt="トップのロゴマーク"></a>
+            <nav id="mainnav">
+                <p id="menuWrap"><a id="menu"><span id="menuBtn"></span></a></p>
+                <div class="panel">
+                    <ul>
+                        <li><a href="index.html">TOP</a></li>
+                        <li><a href="#sec01">CONCEPT</a></li>
+                        <li><a href="#sec02">GALLERY</a></li>
+                        <li><a href="PROJECTHOME-1.html">PROJECT</a></li>
+                        <li><a href="#sec04">STUDY</a></li>
+                        <li><a href="#sec05">ABOUT</a></li>
+                        <li><a href="#sec06">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <p class="pagetop">
+		<a href="#header"><img src="images/photo19.png" alt="▲PAGE TOP"></a>
+	</p>
+
+    <div class="articlebody">
+        <h1>【Open Desing Project】ランプシェード</h1>
+        
+        <h2>2021.6.5</h2>
+        <Hr width="100%" hr size="3px" color="black">
+
+        <br><img src="images/photo27.png"><img src="images/photo28.jpg">
+        <Hr>
+        <p>
+            <br><h2>まず初めに、今回大変お世話になった動画</h2>
+            <img src="images/photo29.png">
+             <br>メイカーズラブ<br>【Fusion360の使い方】シートメタル機能を応用して模様の入った指輪を作る方法<br><a href="https://youtu.be/vtrquhEl5LI">URL:
+                https://www.youtube.com/watch?v=vtrquhEl5LI</a>
+            <br><Hr>
+        </p>
+        <p>
+            <br><img src="images/photo30.png">
+            
+        </p>
+        
+        <p>
+            <br><h1><font color="184063"><u>1.一部分が欠けた円柱を作る</u></font></h1>
+            <br><img src="images/photo31.png">
+            ・直径150mmの円を描く<br>・円の中心から真下に線を引き、その両端に3度ずつの線を引く<br>
+            <br><img src="images/photo32.png">
+            ・線を引いた部分をトリムで消す<br>
+            <br><img src="images/photo33.png">
+            ・「シートメタル」➡「フランジ」で先ほどの欠けた円を上に押し出す<br>　　(今回は150mm)<br>
+            <br><img src="images/photo34.png">
+            ・欠けた部分を押し出しで少しだけ伸ばす(押し出された部分は曲線ではなくただの直方体)<br><font color="red">※</font>ここで押し出しを行わないと次に行う「展開」の作業ができなくなってしまう<br>
+            <Hr>
+        </p>
+        <p>
+            <br><h1><font color="184063"><u>2.1の円柱を展開して模様を描く</u></font></h1>
+            <br><img src="images/photo35.png">
+            ・「シートメタル」➡「修正」➡「展開」<br>・「固定エンティティ」は先ほど押し出した部分(円柱内側)をクリック<br>
+            <br><img src="images/photo36.png">
+            ・「曲げ」の部分は緑色になった部分を選択<br>
+            <br><img src="images/photo37.png">
+            ・展開できました<br>
+            <br><img src="images/photo38.png">
+            ・この面にキャンバスを利用してデザインを上からなぞります。<br>・このキャンバスの説明はこちらからどうぞ<br>
+            <br><img src="images/photo39.png">
+            ・矩形状(くけいじょう)パターンを使って同じデザインをバランスよくコピー
+            <br>➡<strong>「矩形状パターン」</strong>とは？・・・選択したスケッチを、長方形状に配列コピーするコマンドのこと！<br>
+            <br><img src="images/photo40.png">
+            ・全部押し出して切り抜く<br>
+            <br><img src="images/photo41.png">
+            ・「シートメタル」➡「面を再折り曲げ」で元の円柱に戻す
+            <Hr>
+        </p>
+        <p>
+            <br><h1><font color="184063"><u>3.最終仕上げ</u></font></h1>
+            <br><img src="images/photo42.png">
+            ・２つの円を描く<br>
+             ①：円柱の最上部(円柱に沿って)<br>②：①から10mm高い位置(直径85mm)<br>
+             <br><img src="images/photo43.png">
+             ・①と②をロフトでつなげる<br>・②の円柱を20mm押し出す<br>
+             <br><img src="images/photo44.png">
+             ・上の凸部にねじを適用させる<br>・選択項目「モデル化」のチェックを忘れずに。(ねじ状が適用されなくなります！)<br>
+             <br><img src="images/photo45.png">
+            <br> ・凸部に電球が入るぐらいの大きさの穴をあける<br>・円柱側面の欠けた部分を押し出して完成！
+            <Hr>
+        </p>
+        <p>
+            <br><img src="images/photo46.png"><br>
+            <Hr>
+            <br><img src="images/photo28.jpg">
+            <br><br>糸見啓介
+        </p>
+        
+       
+      
+    </div>
+    
+    <div class="sidenav">
+        <p>--NEW LIST--</p>
+        <ul>
+            <li><a href="project3.html">【2021.5.13】GW中に</a></li>
+            <li><a href="project2.html">【2021.4.26】企業取材に行ってきました</a></li>
+            <li><a href="project1.html">【2021.4.17】プロジェクト変更の経緯　</a></li>
+        </ul>
+
+    </div>
+
+
+    <footer id="footer">
+        Copyright(c) 2016 Sample Inc. All Rights Reserved. Design by <a href="http://f-tpl.com"
+            target="_blank">http://f-tpl.com</a><!-- ←クレジット表記を外す場合はシリアルキーが必要です http://f-tpl.com/credit/ -->
+    </footer>
+
+</body>
+
+</html>
