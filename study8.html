@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header id="header">
+        <div id="headerWrap">
+            <a href="index.html"><img id="logo" src="images/originallogo2.png"  width="500px" alt="トップのロゴマーク"></a>
+            <nav id="mainnav">
+                <p id="menuWrap"><a id="menu"><span id="menuBtn"></span></a></p>
+                <div class="panel">
+                    <ul>
+                        <li><a href="index.html">TOP</a></li>
+                        <li><a href="#sec01">CONCEPT</a></li>
+                        <li><a href="#sec02">GALLERY</a></li>
+                        <li><a href="PROJECTHOME-1.html">PROJECT</a></li>
+                        <li><a href="STUDYHOME.html">STUDY</a></li>
+                        <li><a href="#sec05">ABOUT</a></li>
+                        <li><a href="#sec06">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <p class="pagetop">
+		<a href="#header"><img src="images/photo19.png" alt="▲PAGE TOP"></a>
+	</p>
+
+    <div class="articlebody">
+        <h1>【2021.7.19】7.19記事の制作手順</h1>
+        
+        <h2>2021.7.19</h2>
+        <Hr width="100%" hr size="3px" color="black">
+
+        <p><img src="images/photo156.png">
+         <Hr>
+        </p>
+        <p>
+         <img src="images/photo145.png">
+         <br><br><h3>〇3つの円を描く</h3><br>・３つの円の高さ、それぞれの円の大きさによって形が変わってくる。<br>・下の円60mm　中の円80mm 上の円30mm<br>(・以降、下から「1段目」「2段目」...とします。<br><br>
+         <Hr>
+         <img src="images/photo146.png">
+         <br><br><h3>〇それぞれの円</h3><br>・2重の円を描く(2mmの隙間)<br>・それぞれの円に点を１つずつ付ける<br><br>
+         <img src="images/photo147.png">
+         <br><br><h3>〇点を複製</h3><br>・「パターン」⇒「円形状パターン」<br>　　『オブジェクト』：先ほどの２つの点<br>　　『中心点』：原点<br>　　『数量』：36<br><br>
+         <Hr>
+         <img src="images/photo148.png">
+         <br><br><h3>〇「サーフェス」の「ロフト」を使って3段の円を繋げる</h3><br>　　①外側の円のみでロフトを使う　②内側の円のみでロフトを使う<br>(※あくまで「サーフェス」の「ロフト」なので、厚さ0の面を作ったことになります)<br><br>
+         <img src="images/photo149.png">
+         <br><br><h3>〇1段目と3段目の点に2本の線を繋げる</h3><br>・「作成」⇒平面は「XZ平面」を選択⇒「線分」<br>　　《1本目》外側の円の点同士で線を結ぶ <br>　　《2本目》内側の円の点同士で線を結ぶ<br><br>
+         <img src="images/photo150.png">
+         <br><br><h3>〇2本の線を曲面に合わせる</h3><br>・「作成」⇒適当な平面を選択<br>・「プロジェクト/含める」⇒「サーフェスに投影」<br>　　『面』：画像青い部分<br>　　『曲線』：2本の線 <br><br>
+         <img src="images/photo151.png">
+         <br><br><h3>〇曲面に沿った線をパイプで実体化</h3><br>・「パイプ」<br>　　『断面』：三角<br>　　『断面サイズ』：2mm<br><br>
+         <img src="images/photo152.png">
+         <br><br><h3>〇円形状パターンで複製</h3><br>・「パターン」⇒「円形状パターン」<br>　　『オブジェクト』：2本のパイプ<br>　　『軸』：Z軸<br>　　『数量』：36(※おまかせ)<br><br>
+         <img src="images/photo153.png">
+         <br><br><h3>〇押し出し</h3><br>・上部は穴を塞がないように押し出し<br>・下部は面全体を押し出し<br><br>
+         <Hr>
+         <br><br><h3>〇完成〇</h3><br><br>
+         <img src="images/photo154.png">
+         <Hr>
+
+        </p>
+         <Hr>
+        <p>
+        <br><br><h3>その他の形状について</h3><br><br>
+         <img src="imagse/photo155.png">
+         <br><br>最初に描いた円の大きさや高さを変更すればさまざまな形にすることができます。<br><br>
+       
+        </p>
+     
+     
+        </p>
+
+            <br><br>糸見啓介
+        </p>
+        
+       
+      
+    </div>
+    
+    <div class="sidenav">
+        <p>--NEW LIST--</p>
+        <ul>
+            <li><a href="project3.html">【2021.5.13】GW中に</a></li>
+            <li><a href="project2.html">【2021.4.26】企業取材に行ってきました</a></li>
+            <li><a href="project1.html">【2021.4.17】プロジェクト変更の経緯　</a></li>
+        </ul>
+
+    </div>
+
+
+    <footer id="footer">
+
+        Copyright(c) 2016 Sample Inc. All Rights Reserved. Design by <a href="http://f-tpl.com"
+            target="_blank">http://f-tpl.com</a><!-- ←クレジット表記を外す場合はシリアルキーが必要です http://f-tpl.com/credit/ -->
+    </footer>
+
+</body>
